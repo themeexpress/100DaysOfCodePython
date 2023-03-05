@@ -19,6 +19,9 @@ if height >= 120:
     if want_photo == 'Y' or 'y':
         bill += 5
         print(f"Your ticket price with Photo is {bill}$")
+    else:
+        bill += 0
+        print(f"Your ticket price with Photo is {bill}$")
 
 else:
     print("Sorry. Your have to more taller to ride")
